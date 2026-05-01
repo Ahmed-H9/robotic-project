@@ -21,7 +21,7 @@ The system allows access only to authorized RFID cards. When a valid card is sca
 
 - ## 🔌 Circuit Diagram
 
-- on presentation
+/Presentation/RFIDlock system.pptx
 
 
 ## 🧠 How It Works
@@ -41,3 +41,25 @@ The system allows access only to authorized RFID cards. When a valid card is sca
    ## 💻 Arduino Code
 
 The main code is located in:
+/Source_Code/Code.ino
+## 🔐 Access Control
+
+Authorized UID is defined in the code:
+
+```cpp
+byte master[4] = {0xA1, 0x98, 0x23, 0x4C};
+
+---
+
+## 🚀 Future Improvements
+```md
+## 🚀 Future Improvements
+
+- Add multiple users support
+- Connect system to mobile app
+- Add logging system (who accessed and when)
+- Use ESP32 for IoT integration
+## 👨‍💻 Author
+
+Developed by Khaled Saad , Ahmed Ramadan , Ahmed Hassan , Boles Hessam
+under supervisor : dr / Marwa El sediq , Eng / Abdelraof hawash
